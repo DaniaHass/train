@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ProductsController;
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
